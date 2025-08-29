@@ -1,0 +1,909 @@
+2025-08-15 12:03:23,680 - app_logger - INFO - Starting training for 100 epochs - train_model
+2025-08-15 12:03:23,681 - app_logger - INFO - 
+Epoch 1/100 - train_model
+2025-08-15 12:03:23,681 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:03:31,775 - app_logger - INFO - Current Learning Rate: 0.000100 - train_model
+2025-08-15 12:03:31,917 - app_logger - INFO - Epoch 1 completed - Train Loss: 0.6839, Train_Acc: 0.4688, Train_AUC: 0.4624, F1_train: 0.4516, Val Loss: 0.5619, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.5093 - train_model
+2025-08-15 12:03:31,919 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:03:32,088 - app_logger - INFO -  Validation loss improved. Model saved to best_model.pth - train_model
+2025-08-15 12:03:32,088 - app_logger - INFO - 
+Epoch 2/100 - train_model
+2025-08-15 12:03:32,088 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:03:40,045 - app_logger - INFO - Current Learning Rate: 0.000100 - train_model
+2025-08-15 12:03:40,176 - app_logger - INFO - Epoch 2 completed - Train Loss: 0.5763, Train_Acc: 0.7083, Train_AUC: 0.8432, F1_train: 0.4146, Val Loss: 0.5565, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.5926 - train_model
+2025-08-15 12:03:40,178 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:03:41,056 - app_logger - INFO -  Validation loss improved. Model saved to best_model.pth - train_model
+2025-08-15 12:03:41,058 - app_logger - INFO - 
+Epoch 3/100 - train_model
+2025-08-15 12:03:41,058 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:03:49,295 - app_logger - INFO - Current Learning Rate: 0.000050 - train_model
+2025-08-15 12:03:49,520 - app_logger - INFO - Epoch 3 completed - Train Loss: 0.5086, Train_Acc: 0.7083, Train_AUC: 0.8914, F1_train: 0.4146, Val Loss: 0.5308, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6852 - train_model
+2025-08-15 12:03:49,522 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:03:50,385 - app_logger - INFO -  Validation loss improved. Model saved to best_model.pth - train_model
+2025-08-15 12:03:50,387 - app_logger - INFO - 
+Epoch 4/100 - train_model
+2025-08-15 12:03:50,387 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:03:58,098 - app_logger - INFO - Current Learning Rate: 0.000050 - train_model
+2025-08-15 12:03:58,230 - app_logger - INFO - Epoch 4 completed - Train Loss: 0.4439, Train_Acc: 0.7760, Train_AUC: 0.9035, F1_train: 0.6202, Val Loss: 0.5273, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6944 - train_model
+2025-08-15 12:03:58,233 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:03:59,094 - app_logger - INFO -  Validation loss improved. Model saved to best_model.pth - train_model
+2025-08-15 12:03:59,096 - app_logger - INFO - 
+Epoch 5/100 - train_model
+2025-08-15 12:03:59,097 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:07,079 - app_logger - INFO - Current Learning Rate: 0.000050 - train_model
+2025-08-15 12:04:07,218 - app_logger - INFO - Epoch 5 completed - Train Loss: 0.4181, Train_Acc: 0.8646, Train_AUC: 0.9132, F1_train: 0.8052, Val Loss: 0.5295, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6852 - train_model
+2025-08-15 12:04:07,220 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:04:07,220 - app_logger - INFO -  No improvement. Early stopping counter: 1/20 - train_model
+2025-08-15 12:04:07,220 - app_logger - INFO - 
+Epoch 6/100 - train_model
+2025-08-15 12:04:07,220 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:14,981 - app_logger - INFO - Current Learning Rate: 0.000025 - train_model
+2025-08-15 12:04:15,109 - app_logger - INFO - Epoch 6 completed - Train Loss: 0.3969, Train_Acc: 0.8958, Train_AUC: 0.9296, F1_train: 0.8611, Val Loss: 0.5304, Val_F1: 0.5819, Val_Acc: 0.7917, Val_AUC: 0.6667 - train_model
+2025-08-15 12:04:15,111 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [5, 1]]
+TP: 1, TN: 18, FP: 0, FN: 5 | Precision: 1.0000, Recall: 0.1667, Specificity: 1.0000 - train_model
+2025-08-15 12:04:15,111 - app_logger - INFO -  No improvement. Early stopping counter: 2/20 - train_model
+2025-08-15 12:04:15,111 - app_logger - INFO - 
+Epoch 7/100 - train_model
+2025-08-15 12:04:15,111 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:23,126 - app_logger - INFO - Current Learning Rate: 0.000025 - train_model
+2025-08-15 12:04:23,259 - app_logger - INFO - Epoch 7 completed - Train Loss: 0.3772, Train_Acc: 0.8958, Train_AUC: 0.9494, F1_train: 0.8611, Val Loss: 0.5291, Val_F1: 0.5819, Val_Acc: 0.7917, Val_AUC: 0.6759 - train_model
+2025-08-15 12:04:23,261 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [5, 1]]
+TP: 1, TN: 18, FP: 0, FN: 5 | Precision: 1.0000, Recall: 0.1667, Specificity: 1.0000 - train_model
+2025-08-15 12:04:23,261 - app_logger - INFO -  No improvement. Early stopping counter: 3/20 - train_model
+2025-08-15 12:04:23,262 - app_logger - INFO - 
+Epoch 8/100 - train_model
+2025-08-15 12:04:23,262 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:31,275 - app_logger - INFO - Current Learning Rate: 0.000025 - train_model
+2025-08-15 12:04:31,409 - app_logger - INFO - Epoch 8 completed - Train Loss: 0.3637, Train_Acc: 0.8958, Train_AUC: 0.9609, F1_train: 0.8611, Val Loss: 0.5273, Val_F1: 0.5819, Val_Acc: 0.7917, Val_AUC: 0.6667 - train_model
+2025-08-15 12:04:31,411 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [5, 1]]
+TP: 1, TN: 18, FP: 0, FN: 5 | Precision: 1.0000, Recall: 0.1667, Specificity: 1.0000 - train_model
+2025-08-15 12:04:32,291 - app_logger - INFO -  Validation loss improved. Model saved to best_model.pth - train_model
+2025-08-15 12:04:32,291 - app_logger - INFO - 
+Epoch 9/100 - train_model
+2025-08-15 12:04:32,291 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:40,302 - app_logger - INFO - Current Learning Rate: 0.000013 - train_model
+2025-08-15 12:04:40,438 - app_logger - INFO - Epoch 9 completed - Train Loss: 0.3497, Train_Acc: 0.8958, Train_AUC: 0.9686, F1_train: 0.8611, Val Loss: 0.5264, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:04:40,440 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:04:41,328 - app_logger - INFO -  Validation loss improved. Model saved to best_model.pth - train_model
+2025-08-15 12:04:41,331 - app_logger - INFO - 
+Epoch 10/100 - train_model
+2025-08-15 12:04:41,331 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:49,346 - app_logger - INFO - Current Learning Rate: 0.000013 - train_model
+2025-08-15 12:04:49,474 - app_logger - INFO - Epoch 10 completed - Train Loss: 0.3380, Train_Acc: 0.8958, Train_AUC: 0.9753, F1_train: 0.8591, Val Loss: 0.5266, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:04:49,476 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:04:49,476 - app_logger - INFO -  No improvement. Early stopping counter: 1/20 - train_model
+2025-08-15 12:04:49,476 - app_logger - INFO - 
+Epoch 11/100 - train_model
+2025-08-15 12:04:49,476 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:04:57,529 - app_logger - INFO - Current Learning Rate: 0.000013 - train_model
+2025-08-15 12:04:57,657 - app_logger - INFO - Epoch 11 completed - Train Loss: 0.3315, Train_Acc: 0.8906, Train_AUC: 0.9793, F1_train: 0.8510, Val Loss: 0.5272, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:04:57,659 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:04:57,659 - app_logger - INFO -  No improvement. Early stopping counter: 2/20 - train_model
+2025-08-15 12:04:57,659 - app_logger - INFO - 
+Epoch 12/100 - train_model
+2025-08-15 12:04:57,659 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:05,478 - app_logger - INFO - Current Learning Rate: 0.000006 - train_model
+2025-08-15 12:05:05,609 - app_logger - INFO - Epoch 12 completed - Train Loss: 0.3253, Train_Acc: 0.8906, Train_AUC: 0.9824, F1_train: 0.8510, Val Loss: 0.5282, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:05,611 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:05,611 - app_logger - INFO -  No improvement. Early stopping counter: 3/20 - train_model
+2025-08-15 12:05:05,611 - app_logger - INFO - 
+Epoch 13/100 - train_model
+2025-08-15 12:05:05,611 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:13,542 - app_logger - INFO - Current Learning Rate: 0.000006 - train_model
+2025-08-15 12:05:13,780 - app_logger - INFO - Epoch 13 completed - Train Loss: 0.3200, Train_Acc: 0.8958, Train_AUC: 0.9844, F1_train: 0.8571, Val Loss: 0.5288, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:13,782 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:13,782 - app_logger - INFO -  No improvement. Early stopping counter: 4/20 - train_model
+2025-08-15 12:05:13,782 - app_logger - INFO - 
+Epoch 14/100 - train_model
+2025-08-15 12:05:13,783 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:21,666 - app_logger - INFO - Current Learning Rate: 0.000006 - train_model
+2025-08-15 12:05:21,800 - app_logger - INFO - Epoch 14 completed - Train Loss: 0.3170, Train_Acc: 0.8958, Train_AUC: 0.9848, F1_train: 0.8571, Val Loss: 0.5294, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:21,802 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:21,802 - app_logger - INFO -  No improvement. Early stopping counter: 5/20 - train_model
+2025-08-15 12:05:21,802 - app_logger - INFO - 
+Epoch 15/100 - train_model
+2025-08-15 12:05:21,802 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:29,521 - app_logger - INFO - Current Learning Rate: 0.000003 - train_model
+2025-08-15 12:05:29,656 - app_logger - INFO - Epoch 15 completed - Train Loss: 0.3139, Train_Acc: 0.8958, Train_AUC: 0.9862, F1_train: 0.8571, Val Loss: 0.5300, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:29,658 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:29,658 - app_logger - INFO -  No improvement. Early stopping counter: 6/20 - train_model
+2025-08-15 12:05:29,658 - app_logger - INFO - 
+Epoch 16/100 - train_model
+2025-08-15 12:05:29,658 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:37,493 - app_logger - INFO - Current Learning Rate: 0.000003 - train_model
+2025-08-15 12:05:37,629 - app_logger - INFO - Epoch 16 completed - Train Loss: 0.3112, Train_Acc: 0.8958, Train_AUC: 0.9874, F1_train: 0.8571, Val Loss: 0.5302, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:37,631 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:37,631 - app_logger - INFO -  No improvement. Early stopping counter: 7/20 - train_model
+2025-08-15 12:05:37,631 - app_logger - INFO - 
+Epoch 17/100 - train_model
+2025-08-15 12:05:37,631 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:45,473 - app_logger - INFO - Current Learning Rate: 0.000003 - train_model
+2025-08-15 12:05:45,608 - app_logger - INFO - Epoch 17 completed - Train Loss: 0.3097, Train_Acc: 0.8958, Train_AUC: 0.9878, F1_train: 0.8571, Val Loss: 0.5305, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:45,610 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:45,610 - app_logger - INFO -  No improvement. Early stopping counter: 8/20 - train_model
+2025-08-15 12:05:45,611 - app_logger - INFO - 
+Epoch 18/100 - train_model
+2025-08-15 12:05:45,611 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:05:53,621 - app_logger - INFO - Current Learning Rate: 0.000002 - train_model
+2025-08-15 12:05:53,756 - app_logger - INFO - Epoch 18 completed - Train Loss: 0.3081, Train_Acc: 0.8958, Train_AUC: 0.9879, F1_train: 0.8571, Val Loss: 0.5307, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:05:53,758 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:05:53,758 - app_logger - INFO -  No improvement. Early stopping counter: 9/20 - train_model
+2025-08-15 12:05:53,758 - app_logger - INFO - 
+Epoch 19/100 - train_model
+2025-08-15 12:05:53,758 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:01,861 - app_logger - INFO - Current Learning Rate: 0.000002 - train_model
+2025-08-15 12:06:01,995 - app_logger - INFO - Epoch 19 completed - Train Loss: 0.3067, Train_Acc: 0.8958, Train_AUC: 0.9887, F1_train: 0.8571, Val Loss: 0.5308, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:06:01,997 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:01,998 - app_logger - INFO -  No improvement. Early stopping counter: 10/20 - train_model
+2025-08-15 12:06:01,998 - app_logger - INFO - 
+Epoch 20/100 - train_model
+2025-08-15 12:06:01,998 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:09,961 - app_logger - INFO - Current Learning Rate: 0.000002 - train_model
+2025-08-15 12:06:10,098 - app_logger - INFO - Epoch 20 completed - Train Loss: 0.3059, Train_Acc: 0.8958, Train_AUC: 0.9890, F1_train: 0.8571, Val Loss: 0.5310, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:06:10,100 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:10,100 - app_logger - INFO -  No improvement. Early stopping counter: 11/20 - train_model
+2025-08-15 12:06:10,100 - app_logger - INFO - 
+Epoch 21/100 - train_model
+2025-08-15 12:06:10,100 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:18,089 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:06:18,227 - app_logger - INFO - Epoch 21 completed - Train Loss: 0.3051, Train_Acc: 0.9010, Train_AUC: 0.9890, F1_train: 0.8652, Val Loss: 0.5311, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:06:18,229 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:18,229 - app_logger - INFO -  No improvement. Early stopping counter: 12/20 - train_model
+2025-08-15 12:06:18,229 - app_logger - INFO - 
+Epoch 22/100 - train_model
+2025-08-15 12:06:18,229 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:26,202 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:06:26,348 - app_logger - INFO - Epoch 22 completed - Train Loss: 0.3044, Train_Acc: 0.9010, Train_AUC: 0.9891, F1_train: 0.8652, Val Loss: 0.5311, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:06:26,350 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:26,350 - app_logger - INFO -  No improvement. Early stopping counter: 13/20 - train_model
+2025-08-15 12:06:26,350 - app_logger - INFO - 
+Epoch 23/100 - train_model
+2025-08-15 12:06:26,350 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:34,159 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:06:34,287 - app_logger - INFO - Epoch 23 completed - Train Loss: 0.3038, Train_Acc: 0.9010, Train_AUC: 0.9891, F1_train: 0.8652, Val Loss: 0.5312, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:06:34,289 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:34,289 - app_logger - INFO -  No improvement. Early stopping counter: 14/20 - train_model
+2025-08-15 12:06:34,290 - app_logger - INFO - 
+Epoch 24/100 - train_model
+2025-08-15 12:06:34,290 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:42,200 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:06:42,335 - app_logger - INFO - Epoch 24 completed - Train Loss: 0.3033, Train_Acc: 0.9010, Train_AUC: 0.9891, F1_train: 0.8652, Val Loss: 0.5313, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296 - train_model
+2025-08-15 12:06:42,337 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:42,337 - app_logger - INFO -  No improvement. Early stopping counter: 15/20 - train_model
+2025-08-15 12:06:42,337 - app_logger - INFO - 
+Epoch 25/100 - train_model
+2025-08-15 12:06:42,337 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:50,397 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:06:50,531 - app_logger - INFO - Epoch 25 completed - Train Loss: 0.3028, Train_Acc: 0.9010, Train_AUC: 0.9892, F1_train: 0.8652, Val Loss: 0.5313, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:06:50,533 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:50,533 - app_logger - INFO -  No improvement. Early stopping counter: 16/20 - train_model
+2025-08-15 12:06:50,533 - app_logger - INFO - 
+Epoch 26/100 - train_model
+2025-08-15 12:06:50,533 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:06:58,604 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:06:58,861 - app_logger - INFO - Epoch 26 completed - Train Loss: 0.3023, Train_Acc: 0.9010, Train_AUC: 0.9894, F1_train: 0.8652, Val Loss: 0.5314, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:06:58,863 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:06:58,863 - app_logger - INFO -  No improvement. Early stopping counter: 17/20 - train_model
+2025-08-15 12:06:58,863 - app_logger - INFO - 
+Epoch 27/100 - train_model
+2025-08-15 12:06:58,863 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:07,069 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:07,200 - app_logger - INFO - Epoch 27 completed - Train Loss: 0.3017, Train_Acc: 0.9010, Train_AUC: 0.9895, F1_train: 0.8652, Val Loss: 0.5315, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:07,202 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:07,202 - app_logger - INFO -  No improvement. Early stopping counter: 18/20 - train_model
+2025-08-15 12:07:07,202 - app_logger - INFO - 
+Epoch 28/100 - train_model
+2025-08-15 12:07:07,202 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:14,972 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:15,103 - app_logger - INFO - Epoch 28 completed - Train Loss: 0.3012, Train_Acc: 0.9010, Train_AUC: 0.9896, F1_train: 0.8652, Val Loss: 0.5315, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:15,105 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:15,105 - app_logger - INFO -  No improvement. Early stopping counter: 19/20 - train_model
+2025-08-15 12:07:15,105 - app_logger - INFO - 
+Epoch 29/100 - train_model
+2025-08-15 12:07:15,105 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:22,838 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:22,970 - app_logger - INFO - Epoch 29 completed - Train Loss: 0.3007, Train_Acc: 0.9010, Train_AUC: 0.9898, F1_train: 0.8652, Val Loss: 0.5316, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:22,972 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:22,972 - app_logger - INFO -  No improvement. Early stopping counter: 20/20 - train_model
+2025-08-15 12:07:22,972 - app_logger - INFO -  Early stopping triggered. Stopping training. - train_model
+2025-08-15 12:07:22,972 - app_logger - INFO - 
+Epoch 30/100 - train_model
+2025-08-15 12:07:22,972 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:30,894 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:31,030 - app_logger - INFO - Epoch 30 completed - Train Loss: 0.3001, Train_Acc: 0.9010, Train_AUC: 0.9898, F1_train: 0.8652, Val Loss: 0.5317, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:31,032 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:31,032 - app_logger - INFO -  No improvement. Early stopping counter: 1/20 - train_model
+2025-08-15 12:07:31,033 - app_logger - INFO - 
+Epoch 31/100 - train_model
+2025-08-15 12:07:31,033 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:39,126 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:39,262 - app_logger - INFO - Epoch 31 completed - Train Loss: 0.2996, Train_Acc: 0.9010, Train_AUC: 0.9898, F1_train: 0.8652, Val Loss: 0.5317, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:39,264 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:39,264 - app_logger - INFO -  No improvement. Early stopping counter: 2/20 - train_model
+2025-08-15 12:07:39,264 - app_logger - INFO - 
+Epoch 32/100 - train_model
+2025-08-15 12:07:39,264 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:47,491 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:47,627 - app_logger - INFO - Epoch 32 completed - Train Loss: 0.2991, Train_Acc: 0.9010, Train_AUC: 0.9900, F1_train: 0.8652, Val Loss: 0.5318, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:47,629 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:47,629 - app_logger - INFO -  No improvement. Early stopping counter: 3/20 - train_model
+2025-08-15 12:07:47,629 - app_logger - INFO - 
+Epoch 33/100 - train_model
+2025-08-15 12:07:47,629 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:07:55,887 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:07:56,023 - app_logger - INFO - Epoch 33 completed - Train Loss: 0.2985, Train_Acc: 0.9010, Train_AUC: 0.9903, F1_train: 0.8652, Val Loss: 0.5319, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:07:56,025 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:07:56,025 - app_logger - INFO -  No improvement. Early stopping counter: 4/20 - train_model
+2025-08-15 12:07:56,025 - app_logger - INFO - 
+Epoch 34/100 - train_model
+2025-08-15 12:07:56,025 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:04,183 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:04,319 - app_logger - INFO - Epoch 34 completed - Train Loss: 0.2980, Train_Acc: 0.9010, Train_AUC: 0.9903, F1_train: 0.8652, Val Loss: 0.5320, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:04,321 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:04,322 - app_logger - INFO -  No improvement. Early stopping counter: 5/20 - train_model
+2025-08-15 12:08:04,322 - app_logger - INFO - 
+Epoch 35/100 - train_model
+2025-08-15 12:08:04,322 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:12,289 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:12,427 - app_logger - INFO - Epoch 35 completed - Train Loss: 0.2974, Train_Acc: 0.9010, Train_AUC: 0.9904, F1_train: 0.8652, Val Loss: 0.5320, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:12,429 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:12,429 - app_logger - INFO -  No improvement. Early stopping counter: 6/20 - train_model
+2025-08-15 12:08:12,429 - app_logger - INFO - 
+Epoch 36/100 - train_model
+2025-08-15 12:08:12,429 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:20,628 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:20,762 - app_logger - INFO - Epoch 36 completed - Train Loss: 0.2969, Train_Acc: 0.9010, Train_AUC: 0.9908, F1_train: 0.8652, Val Loss: 0.5321, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:20,764 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:20,765 - app_logger - INFO -  No improvement. Early stopping counter: 7/20 - train_model
+2025-08-15 12:08:20,765 - app_logger - INFO - 
+Epoch 37/100 - train_model
+2025-08-15 12:08:20,765 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:28,687 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:28,823 - app_logger - INFO - Epoch 37 completed - Train Loss: 0.2963, Train_Acc: 0.9010, Train_AUC: 0.9909, F1_train: 0.8652, Val Loss: 0.5322, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:28,825 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:28,825 - app_logger - INFO -  No improvement. Early stopping counter: 8/20 - train_model
+2025-08-15 12:08:28,826 - app_logger - INFO - 
+Epoch 38/100 - train_model
+2025-08-15 12:08:28,826 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:36,589 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:36,725 - app_logger - INFO - Epoch 38 completed - Train Loss: 0.2958, Train_Acc: 0.9010, Train_AUC: 0.9909, F1_train: 0.8652, Val Loss: 0.5323, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:36,727 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:36,727 - app_logger - INFO -  No improvement. Early stopping counter: 9/20 - train_model
+2025-08-15 12:08:36,728 - app_logger - INFO - 
+Epoch 39/100 - train_model
+2025-08-15 12:08:36,728 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:44,639 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:44,778 - app_logger - INFO - Epoch 39 completed - Train Loss: 0.2953, Train_Acc: 0.9010, Train_AUC: 0.9911, F1_train: 0.8652, Val Loss: 0.5323, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:44,780 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:44,780 - app_logger - INFO -  No improvement. Early stopping counter: 10/20 - train_model
+2025-08-15 12:08:44,780 - app_logger - INFO - 
+Epoch 40/100 - train_model
+2025-08-15 12:08:44,780 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:08:52,671 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:08:52,808 - app_logger - INFO - Epoch 40 completed - Train Loss: 0.2947, Train_Acc: 0.9010, Train_AUC: 0.9911, F1_train: 0.8652, Val Loss: 0.5324, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:08:52,810 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:08:52,810 - app_logger - INFO -  No improvement. Early stopping counter: 11/20 - train_model
+2025-08-15 12:08:52,811 - app_logger - INFO - 
+Epoch 41/100 - train_model
+2025-08-15 12:08:52,811 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:00,750 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:01,041 - app_logger - INFO - Epoch 41 completed - Train Loss: 0.2942, Train_Acc: 0.9010, Train_AUC: 0.9912, F1_train: 0.8652, Val Loss: 0.5325, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:01,043 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:01,043 - app_logger - INFO -  No improvement. Early stopping counter: 12/20 - train_model
+2025-08-15 12:09:01,043 - app_logger - INFO - 
+Epoch 42/100 - train_model
+2025-08-15 12:09:01,043 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:08,907 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:09,037 - app_logger - INFO - Epoch 42 completed - Train Loss: 0.2936, Train_Acc: 0.9010, Train_AUC: 0.9912, F1_train: 0.8652, Val Loss: 0.5326, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:09,039 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:09,039 - app_logger - INFO -  No improvement. Early stopping counter: 13/20 - train_model
+2025-08-15 12:09:09,039 - app_logger - INFO - 
+Epoch 43/100 - train_model
+2025-08-15 12:09:09,039 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:17,107 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:17,237 - app_logger - INFO - Epoch 43 completed - Train Loss: 0.2931, Train_Acc: 0.9010, Train_AUC: 0.9912, F1_train: 0.8652, Val Loss: 0.5327, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:17,239 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:17,239 - app_logger - INFO -  No improvement. Early stopping counter: 14/20 - train_model
+2025-08-15 12:09:17,239 - app_logger - INFO - 
+Epoch 44/100 - train_model
+2025-08-15 12:09:17,239 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:25,314 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:25,444 - app_logger - INFO - Epoch 44 completed - Train Loss: 0.2925, Train_Acc: 0.9010, Train_AUC: 0.9912, F1_train: 0.8652, Val Loss: 0.5328, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:25,446 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:25,446 - app_logger - INFO -  No improvement. Early stopping counter: 15/20 - train_model
+2025-08-15 12:09:25,447 - app_logger - INFO - 
+Epoch 45/100 - train_model
+2025-08-15 12:09:25,447 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:33,621 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:33,750 - app_logger - INFO - Epoch 45 completed - Train Loss: 0.2920, Train_Acc: 0.9010, Train_AUC: 0.9912, F1_train: 0.8652, Val Loss: 0.5328, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:33,752 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:33,752 - app_logger - INFO -  No improvement. Early stopping counter: 16/20 - train_model
+2025-08-15 12:09:33,752 - app_logger - INFO - 
+Epoch 46/100 - train_model
+2025-08-15 12:09:33,752 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:41,807 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:41,936 - app_logger - INFO - Epoch 46 completed - Train Loss: 0.2914, Train_Acc: 0.9010, Train_AUC: 0.9912, F1_train: 0.8652, Val Loss: 0.5329, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:41,938 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:41,938 - app_logger - INFO -  No improvement. Early stopping counter: 17/20 - train_model
+2025-08-15 12:09:41,938 - app_logger - INFO - 
+Epoch 47/100 - train_model
+2025-08-15 12:09:41,938 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:49,778 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:49,907 - app_logger - INFO - Epoch 47 completed - Train Loss: 0.2909, Train_Acc: 0.9010, Train_AUC: 0.9916, F1_train: 0.8652, Val Loss: 0.5330, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:49,909 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:49,909 - app_logger - INFO -  No improvement. Early stopping counter: 18/20 - train_model
+2025-08-15 12:09:49,909 - app_logger - INFO - 
+Epoch 48/100 - train_model
+2025-08-15 12:09:49,909 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:09:57,978 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:09:58,109 - app_logger - INFO - Epoch 48 completed - Train Loss: 0.2903, Train_Acc: 0.9010, Train_AUC: 0.9916, F1_train: 0.8652, Val Loss: 0.5331, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:09:58,111 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:09:58,111 - app_logger - INFO -  No improvement. Early stopping counter: 19/20 - train_model
+2025-08-15 12:09:58,111 - app_logger - INFO - 
+Epoch 49/100 - train_model
+2025-08-15 12:09:58,111 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:05,957 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:06,088 - app_logger - INFO - Epoch 49 completed - Train Loss: 0.2898, Train_Acc: 0.9010, Train_AUC: 0.9916, F1_train: 0.8652, Val Loss: 0.5332, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:10:06,090 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:06,090 - app_logger - INFO -  No improvement. Early stopping counter: 20/20 - train_model
+2025-08-15 12:10:06,090 - app_logger - INFO -  Early stopping triggered. Stopping training. - train_model
+2025-08-15 12:10:06,090 - app_logger - INFO - 
+Epoch 50/100 - train_model
+2025-08-15 12:10:06,090 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:14,049 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:14,180 - app_logger - INFO - Epoch 50 completed - Train Loss: 0.2892, Train_Acc: 0.9010, Train_AUC: 0.9919, F1_train: 0.8652, Val Loss: 0.5333, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:10:14,182 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:14,182 - app_logger - INFO -  No improvement. Early stopping counter: 1/20 - train_model
+2025-08-15 12:10:14,183 - app_logger - INFO - 
+Epoch 51/100 - train_model
+2025-08-15 12:10:14,183 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:22,305 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:22,443 - app_logger - INFO - Epoch 51 completed - Train Loss: 0.2887, Train_Acc: 0.9062, Train_AUC: 0.9920, F1_train: 0.8732, Val Loss: 0.5334, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:10:22,445 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:22,445 - app_logger - INFO -  No improvement. Early stopping counter: 2/20 - train_model
+2025-08-15 12:10:22,445 - app_logger - INFO - 
+Epoch 52/100 - train_model
+2025-08-15 12:10:22,445 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:30,268 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:30,402 - app_logger - INFO - Epoch 52 completed - Train Loss: 0.2881, Train_Acc: 0.9062, Train_AUC: 0.9920, F1_train: 0.8732, Val Loss: 0.5335, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:10:30,404 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:30,404 - app_logger - INFO -  No improvement. Early stopping counter: 3/20 - train_model
+2025-08-15 12:10:30,405 - app_logger - INFO - 
+Epoch 53/100 - train_model
+2025-08-15 12:10:30,405 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:38,357 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:38,488 - app_logger - INFO - Epoch 53 completed - Train Loss: 0.2876, Train_Acc: 0.9115, Train_AUC: 0.9920, F1_train: 0.8811, Val Loss: 0.5336, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:10:38,490 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:38,490 - app_logger - INFO -  No improvement. Early stopping counter: 4/20 - train_model
+2025-08-15 12:10:38,490 - app_logger - INFO - 
+Epoch 54/100 - train_model
+2025-08-15 12:10:38,490 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:46,361 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:46,505 - app_logger - INFO - Epoch 54 completed - Train Loss: 0.2870, Train_Acc: 0.9115, Train_AUC: 0.9921, F1_train: 0.8811, Val Loss: 0.5337, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6204 - train_model
+2025-08-15 12:10:46,507 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:46,507 - app_logger - INFO -  No improvement. Early stopping counter: 5/20 - train_model
+2025-08-15 12:10:46,507 - app_logger - INFO - 
+Epoch 55/100 - train_model
+2025-08-15 12:10:46,507 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:10:54,549 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:10:54,683 - app_logger - INFO - Epoch 55 completed - Train Loss: 0.2865, Train_Acc: 0.9115, Train_AUC: 0.9921, F1_train: 0.8811, Val Loss: 0.5338, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:10:54,685 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:10:54,685 - app_logger - INFO -  No improvement. Early stopping counter: 6/20 - train_model
+2025-08-15 12:10:54,686 - app_logger - INFO - 
+Epoch 56/100 - train_model
+2025-08-15 12:10:54,686 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:02,776 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:02,908 - app_logger - INFO - Epoch 56 completed - Train Loss: 0.2859, Train_Acc: 0.9115, Train_AUC: 0.9921, F1_train: 0.8811, Val Loss: 0.5339, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:02,910 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:02,910 - app_logger - INFO -  No improvement. Early stopping counter: 7/20 - train_model
+2025-08-15 12:11:02,910 - app_logger - INFO - 
+Epoch 57/100 - train_model
+2025-08-15 12:11:02,910 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:10,967 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:11,100 - app_logger - INFO - Epoch 57 completed - Train Loss: 0.2854, Train_Acc: 0.9115, Train_AUC: 0.9923, F1_train: 0.8811, Val Loss: 0.5340, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:11,102 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:11,102 - app_logger - INFO -  No improvement. Early stopping counter: 8/20 - train_model
+2025-08-15 12:11:11,103 - app_logger - INFO - 
+Epoch 58/100 - train_model
+2025-08-15 12:11:11,103 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:18,914 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:19,047 - app_logger - INFO - Epoch 58 completed - Train Loss: 0.2848, Train_Acc: 0.9115, Train_AUC: 0.9924, F1_train: 0.8811, Val Loss: 0.5341, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:19,049 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:19,049 - app_logger - INFO -  No improvement. Early stopping counter: 9/20 - train_model
+2025-08-15 12:11:19,049 - app_logger - INFO - 
+Epoch 59/100 - train_model
+2025-08-15 12:11:19,049 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:27,071 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:27,204 - app_logger - INFO - Epoch 59 completed - Train Loss: 0.2843, Train_Acc: 0.9115, Train_AUC: 0.9924, F1_train: 0.8811, Val Loss: 0.5342, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:27,206 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:27,206 - app_logger - INFO -  No improvement. Early stopping counter: 10/20 - train_model
+2025-08-15 12:11:27,206 - app_logger - INFO - 
+Epoch 60/100 - train_model
+2025-08-15 12:11:27,206 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:35,303 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:35,625 - app_logger - INFO - Epoch 60 completed - Train Loss: 0.2837, Train_Acc: 0.9115, Train_AUC: 0.9924, F1_train: 0.8811, Val Loss: 0.5343, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:35,627 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:35,627 - app_logger - INFO -  No improvement. Early stopping counter: 11/20 - train_model
+2025-08-15 12:11:35,627 - app_logger - INFO - 
+Epoch 61/100 - train_model
+2025-08-15 12:11:35,627 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:43,584 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:43,719 - app_logger - INFO - Epoch 61 completed - Train Loss: 0.2831, Train_Acc: 0.9115, Train_AUC: 0.9925, F1_train: 0.8811, Val Loss: 0.5344, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:43,721 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:43,721 - app_logger - INFO -  No improvement. Early stopping counter: 12/20 - train_model
+2025-08-15 12:11:43,721 - app_logger - INFO - 
+Epoch 62/100 - train_model
+2025-08-15 12:11:43,721 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:51,710 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:11:51,844 - app_logger - INFO - Epoch 62 completed - Train Loss: 0.2826, Train_Acc: 0.9115, Train_AUC: 0.9926, F1_train: 0.8811, Val Loss: 0.5345, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:11:51,846 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:11:51,846 - app_logger - INFO -  No improvement. Early stopping counter: 13/20 - train_model
+2025-08-15 12:11:51,846 - app_logger - INFO - 
+Epoch 63/100 - train_model
+2025-08-15 12:11:51,846 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:11:59,970 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:00,104 - app_logger - INFO - Epoch 63 completed - Train Loss: 0.2820, Train_Acc: 0.9115, Train_AUC: 0.9926, F1_train: 0.8811, Val Loss: 0.5346, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:12:00,107 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:00,107 - app_logger - INFO -  No improvement. Early stopping counter: 14/20 - train_model
+2025-08-15 12:12:00,107 - app_logger - INFO - 
+Epoch 64/100 - train_model
+2025-08-15 12:12:00,107 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:08,142 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:08,277 - app_logger - INFO - Epoch 64 completed - Train Loss: 0.2815, Train_Acc: 0.9167, Train_AUC: 0.9928, F1_train: 0.8889, Val Loss: 0.5347, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:12:08,279 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:08,279 - app_logger - INFO -  No improvement. Early stopping counter: 15/20 - train_model
+2025-08-15 12:12:08,279 - app_logger - INFO - 
+Epoch 65/100 - train_model
+2025-08-15 12:12:08,279 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:16,328 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:16,465 - app_logger - INFO - Epoch 65 completed - Train Loss: 0.2809, Train_Acc: 0.9167, Train_AUC: 0.9928, F1_train: 0.8889, Val Loss: 0.5348, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6111 - train_model
+2025-08-15 12:12:16,467 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:16,467 - app_logger - INFO -  No improvement. Early stopping counter: 16/20 - train_model
+2025-08-15 12:12:16,467 - app_logger - INFO - 
+Epoch 66/100 - train_model
+2025-08-15 12:12:16,467 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:24,677 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:24,811 - app_logger - INFO - Epoch 66 completed - Train Loss: 0.2804, Train_Acc: 0.9219, Train_AUC: 0.9928, F1_train: 0.8965, Val Loss: 0.5349, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6019 - train_model
+2025-08-15 12:12:24,813 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:24,813 - app_logger - INFO -  No improvement. Early stopping counter: 17/20 - train_model
+2025-08-15 12:12:24,813 - app_logger - INFO - 
+Epoch 67/100 - train_model
+2025-08-15 12:12:24,813 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:32,891 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:33,027 - app_logger - INFO - Epoch 67 completed - Train Loss: 0.2798, Train_Acc: 0.9219, Train_AUC: 0.9928, F1_train: 0.8965, Val Loss: 0.5350, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6019 - train_model
+2025-08-15 12:12:33,029 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:33,029 - app_logger - INFO -  No improvement. Early stopping counter: 18/20 - train_model
+2025-08-15 12:12:33,029 - app_logger - INFO - 
+Epoch 68/100 - train_model
+2025-08-15 12:12:33,029 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:41,012 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:41,148 - app_logger - INFO - Epoch 68 completed - Train Loss: 0.2793, Train_Acc: 0.9219, Train_AUC: 0.9928, F1_train: 0.8965, Val Loss: 0.5351, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6019 - train_model
+2025-08-15 12:12:41,150 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:41,150 - app_logger - INFO -  No improvement. Early stopping counter: 19/20 - train_model
+2025-08-15 12:12:41,150 - app_logger - INFO - 
+Epoch 69/100 - train_model
+2025-08-15 12:12:41,150 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:49,236 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:49,372 - app_logger - INFO - Epoch 69 completed - Train Loss: 0.2787, Train_Acc: 0.9219, Train_AUC: 0.9928, F1_train: 0.8965, Val Loss: 0.5352, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6019 - train_model
+2025-08-15 12:12:49,374 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:49,374 - app_logger - INFO -  No improvement. Early stopping counter: 20/20 - train_model
+2025-08-15 12:12:49,374 - app_logger - INFO -  Early stopping triggered. Stopping training. - train_model
+2025-08-15 12:12:49,374 - app_logger - INFO - 
+Epoch 70/100 - train_model
+2025-08-15 12:12:49,374 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:12:57,233 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:12:57,368 - app_logger - INFO - Epoch 70 completed - Train Loss: 0.2782, Train_Acc: 0.9219, Train_AUC: 0.9928, F1_train: 0.8965, Val Loss: 0.5353, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6019 - train_model
+2025-08-15 12:12:57,370 - app_logger - INFO - Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
+2025-08-15 12:12:57,370 - app_logger - INFO -  No improvement. Early stopping counter: 1/20 - train_model
+2025-08-15 12:12:57,370 - app_logger - INFO - 
+Epoch 71/100 - train_model
+2025-08-15 12:12:57,370 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:05,447 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:05,582 - app_logger - INFO - Epoch 71 completed - Train Loss: 0.2776, Train_Acc: 0.9219, Train_AUC: 0.9929, F1_train: 0.8965, Val Loss: 0.5354, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:05,584 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:05,584 - app_logger - INFO -  No improvement. Early stopping counter: 2/20 - train_model
+2025-08-15 12:13:05,584 - app_logger - INFO - 
+Epoch 72/100 - train_model
+2025-08-15 12:13:05,584 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:13,857 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:13,995 - app_logger - INFO - Epoch 72 completed - Train Loss: 0.2771, Train_Acc: 0.9219, Train_AUC: 0.9930, F1_train: 0.8965, Val Loss: 0.5355, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:13,997 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:13,997 - app_logger - INFO -  No improvement. Early stopping counter: 3/20 - train_model
+2025-08-15 12:13:13,997 - app_logger - INFO - 
+Epoch 73/100 - train_model
+2025-08-15 12:13:13,997 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:21,914 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:22,050 - app_logger - INFO - Epoch 73 completed - Train Loss: 0.2765, Train_Acc: 0.9219, Train_AUC: 0.9930, F1_train: 0.8965, Val Loss: 0.5356, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:22,052 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:22,052 - app_logger - INFO -  No improvement. Early stopping counter: 4/20 - train_model
+2025-08-15 12:13:22,052 - app_logger - INFO - 
+Epoch 74/100 - train_model
+2025-08-15 12:13:22,052 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:30,202 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:30,338 - app_logger - INFO - Epoch 74 completed - Train Loss: 0.2759, Train_Acc: 0.9219, Train_AUC: 0.9933, F1_train: 0.8965, Val Loss: 0.5357, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:30,340 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:30,340 - app_logger - INFO -  No improvement. Early stopping counter: 5/20 - train_model
+2025-08-15 12:13:30,340 - app_logger - INFO - 
+Epoch 75/100 - train_model
+2025-08-15 12:13:30,340 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:38,398 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:38,534 - app_logger - INFO - Epoch 75 completed - Train Loss: 0.2754, Train_Acc: 0.9219, Train_AUC: 0.9936, F1_train: 0.8965, Val Loss: 0.5358, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:38,536 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:38,536 - app_logger - INFO -  No improvement. Early stopping counter: 6/20 - train_model
+2025-08-15 12:13:38,536 - app_logger - INFO - 
+Epoch 76/100 - train_model
+2025-08-15 12:13:38,536 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:46,585 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:46,717 - app_logger - INFO - Epoch 76 completed - Train Loss: 0.2748, Train_Acc: 0.9219, Train_AUC: 0.9936, F1_train: 0.8965, Val Loss: 0.5359, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:46,719 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:46,719 - app_logger - INFO -  No improvement. Early stopping counter: 7/20 - train_model
+2025-08-15 12:13:46,719 - app_logger - INFO - 
+Epoch 77/100 - train_model
+2025-08-15 12:13:46,719 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:13:54,724 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:13:54,858 - app_logger - INFO - Epoch 77 completed - Train Loss: 0.2743, Train_Acc: 0.9219, Train_AUC: 0.9937, F1_train: 0.8965, Val Loss: 0.5360, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.6019 - train_model
+2025-08-15 12:13:54,860 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:13:54,860 - app_logger - INFO -  No improvement. Early stopping counter: 8/20 - train_model
+2025-08-15 12:13:54,860 - app_logger - INFO - 
+Epoch 78/100 - train_model
+2025-08-15 12:13:54,860 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:03,202 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:03,336 - app_logger - INFO - Epoch 78 completed - Train Loss: 0.2737, Train_Acc: 0.9219, Train_AUC: 0.9937, F1_train: 0.8965, Val Loss: 0.5361, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:03,338 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:14:03,338 - app_logger - INFO -  No improvement. Early stopping counter: 9/20 - train_model
+2025-08-15 12:14:03,339 - app_logger - INFO - 
+Epoch 79/100 - train_model
+2025-08-15 12:14:03,339 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:11,462 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:11,597 - app_logger - INFO - Epoch 79 completed - Train Loss: 0.2732, Train_Acc: 0.9219, Train_AUC: 0.9938, F1_train: 0.8965, Val Loss: 0.5363, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:11,599 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:14:11,599 - app_logger - INFO -  No improvement. Early stopping counter: 10/20 - train_model
+2025-08-15 12:14:11,599 - app_logger - INFO - 
+Epoch 80/100 - train_model
+2025-08-15 12:14:11,599 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:19,805 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:19,938 - app_logger - INFO - Epoch 80 completed - Train Loss: 0.2726, Train_Acc: 0.9219, Train_AUC: 0.9938, F1_train: 0.8965, Val Loss: 0.5364, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:19,940 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:14:19,940 - app_logger - INFO -  No improvement. Early stopping counter: 11/20 - train_model
+2025-08-15 12:14:19,941 - app_logger - INFO - 
+Epoch 81/100 - train_model
+2025-08-15 12:14:19,941 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:28,078 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:28,210 - app_logger - INFO - Epoch 81 completed - Train Loss: 0.2721, Train_Acc: 0.9219, Train_AUC: 0.9940, F1_train: 0.8965, Val Loss: 0.5365, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:28,212 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:14:28,212 - app_logger - INFO -  No improvement. Early stopping counter: 12/20 - train_model
+2025-08-15 12:14:28,213 - app_logger - INFO - 
+Epoch 82/100 - train_model
+2025-08-15 12:14:28,213 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:36,271 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:36,404 - app_logger - INFO - Epoch 82 completed - Train Loss: 0.2715, Train_Acc: 0.9219, Train_AUC: 0.9940, F1_train: 0.8965, Val Loss: 0.5366, Val_F1: 0.4146, Val_Acc: 0.7083, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:36,406 - app_logger - INFO - Confusion Matrix:
+[[17, 1], [6, 0]]
+TP: 0, TN: 17, FP: 1, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.9444 - train_model
+2025-08-15 12:14:36,406 - app_logger - INFO -  No improvement. Early stopping counter: 13/20 - train_model
+2025-08-15 12:14:36,406 - app_logger - INFO - 
+Epoch 83/100 - train_model
+2025-08-15 12:14:36,406 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:44,447 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:44,573 - app_logger - INFO - Epoch 83 completed - Train Loss: 0.2710, Train_Acc: 0.9219, Train_AUC: 0.9941, F1_train: 0.8965, Val Loss: 0.5367, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:44,575 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:14:44,575 - app_logger - INFO -  No improvement. Early stopping counter: 14/20 - train_model
+2025-08-15 12:14:44,575 - app_logger - INFO - 
+Epoch 84/100 - train_model
+2025-08-15 12:14:44,575 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:14:52,667 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:14:53,015 - app_logger - INFO - Epoch 84 completed - Train Loss: 0.2704, Train_Acc: 0.9219, Train_AUC: 0.9944, F1_train: 0.8965, Val Loss: 0.5368, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:14:53,017 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:14:53,018 - app_logger - INFO -  No improvement. Early stopping counter: 15/20 - train_model
+2025-08-15 12:14:53,018 - app_logger - INFO - 
+Epoch 85/100 - train_model
+2025-08-15 12:14:53,018 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:01,072 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:01,196 - app_logger - INFO - Epoch 85 completed - Train Loss: 0.2699, Train_Acc: 0.9219, Train_AUC: 0.9944, F1_train: 0.8965, Val Loss: 0.5369, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:01,198 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:01,198 - app_logger - INFO -  No improvement. Early stopping counter: 16/20 - train_model
+2025-08-15 12:15:01,198 - app_logger - INFO - 
+Epoch 86/100 - train_model
+2025-08-15 12:15:01,198 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:09,603 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:09,730 - app_logger - INFO - Epoch 86 completed - Train Loss: 0.2693, Train_Acc: 0.9219, Train_AUC: 0.9944, F1_train: 0.8965, Val Loss: 0.5370, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:09,732 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:09,732 - app_logger - INFO -  No improvement. Early stopping counter: 17/20 - train_model
+2025-08-15 12:15:09,733 - app_logger - INFO - 
+Epoch 87/100 - train_model
+2025-08-15 12:15:09,733 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:17,758 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:17,883 - app_logger - INFO - Epoch 87 completed - Train Loss: 0.2687, Train_Acc: 0.9219, Train_AUC: 0.9944, F1_train: 0.8965, Val Loss: 0.5371, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:17,885 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:17,885 - app_logger - INFO -  No improvement. Early stopping counter: 18/20 - train_model
+2025-08-15 12:15:17,885 - app_logger - INFO - 
+Epoch 88/100 - train_model
+2025-08-15 12:15:17,885 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:26,172 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:26,299 - app_logger - INFO - Epoch 88 completed - Train Loss: 0.2682, Train_Acc: 0.9219, Train_AUC: 0.9945, F1_train: 0.8965, Val Loss: 0.5373, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:26,301 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:26,301 - app_logger - INFO -  No improvement. Early stopping counter: 19/20 - train_model
+2025-08-15 12:15:26,301 - app_logger - INFO - 
+Epoch 89/100 - train_model
+2025-08-15 12:15:26,301 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:34,437 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:34,562 - app_logger - INFO - Epoch 89 completed - Train Loss: 0.2676, Train_Acc: 0.9219, Train_AUC: 0.9945, F1_train: 0.8965, Val Loss: 0.5374, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:34,564 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:34,564 - app_logger - INFO -  No improvement. Early stopping counter: 20/20 - train_model
+2025-08-15 12:15:34,564 - app_logger - INFO -  Early stopping triggered. Stopping training. - train_model
+2025-08-15 12:15:34,564 - app_logger - INFO - 
+Epoch 90/100 - train_model
+2025-08-15 12:15:34,564 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:42,729 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:42,854 - app_logger - INFO - Epoch 90 completed - Train Loss: 0.2671, Train_Acc: 0.9219, Train_AUC: 0.9945, F1_train: 0.8965, Val Loss: 0.5375, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:42,856 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:42,856 - app_logger - INFO -  No improvement. Early stopping counter: 1/20 - train_model
+2025-08-15 12:15:42,856 - app_logger - INFO - 
+Epoch 91/100 - train_model
+2025-08-15 12:15:42,856 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:50,929 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:51,053 - app_logger - INFO - Epoch 91 completed - Train Loss: 0.2665, Train_Acc: 0.9219, Train_AUC: 0.9945, F1_train: 0.8965, Val Loss: 0.5376, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:51,055 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:51,055 - app_logger - INFO -  No improvement. Early stopping counter: 2/20 - train_model
+2025-08-15 12:15:51,056 - app_logger - INFO - 
+Epoch 92/100 - train_model
+2025-08-15 12:15:51,056 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:15:59,192 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:15:59,318 - app_logger - INFO - Epoch 92 completed - Train Loss: 0.2660, Train_Acc: 0.9219, Train_AUC: 0.9946, F1_train: 0.8965, Val Loss: 0.5377, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:15:59,320 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:15:59,320 - app_logger - INFO -  No improvement. Early stopping counter: 3/20 - train_model
+2025-08-15 12:15:59,320 - app_logger - INFO - 
+Epoch 93/100 - train_model
+2025-08-15 12:15:59,320 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:07,290 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:07,414 - app_logger - INFO - Epoch 93 completed - Train Loss: 0.2654, Train_Acc: 0.9219, Train_AUC: 0.9947, F1_train: 0.8965, Val Loss: 0.5378, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:07,416 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:07,416 - app_logger - INFO -  No improvement. Early stopping counter: 4/20 - train_model
+2025-08-15 12:16:07,417 - app_logger - INFO - 
+Epoch 94/100 - train_model
+2025-08-15 12:16:07,417 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:15,764 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:15,888 - app_logger - INFO - Epoch 94 completed - Train Loss: 0.2649, Train_Acc: 0.9219, Train_AUC: 0.9947, F1_train: 0.8965, Val Loss: 0.5380, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:15,890 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:15,890 - app_logger - INFO -  No improvement. Early stopping counter: 5/20 - train_model
+2025-08-15 12:16:15,891 - app_logger - INFO - 
+Epoch 95/100 - train_model
+2025-08-15 12:16:15,891 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:24,044 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:24,168 - app_logger - INFO - Epoch 95 completed - Train Loss: 0.2643, Train_Acc: 0.9219, Train_AUC: 0.9947, F1_train: 0.8965, Val Loss: 0.5381, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:24,170 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:24,170 - app_logger - INFO -  No improvement. Early stopping counter: 6/20 - train_model
+2025-08-15 12:16:24,171 - app_logger - INFO - 
+Epoch 96/100 - train_model
+2025-08-15 12:16:24,171 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:32,055 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:32,180 - app_logger - INFO - Epoch 96 completed - Train Loss: 0.2638, Train_Acc: 0.9271, Train_AUC: 0.9947, F1_train: 0.9041, Val Loss: 0.5382, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:32,182 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:32,182 - app_logger - INFO -  No improvement. Early stopping counter: 7/20 - train_model
+2025-08-15 12:16:32,183 - app_logger - INFO - 
+Epoch 97/100 - train_model
+2025-08-15 12:16:32,183 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:40,170 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:40,296 - app_logger - INFO - Epoch 97 completed - Train Loss: 0.2632, Train_Acc: 0.9271, Train_AUC: 0.9949, F1_train: 0.9041, Val Loss: 0.5383, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:40,298 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:40,298 - app_logger - INFO -  No improvement. Early stopping counter: 8/20 - train_model
+2025-08-15 12:16:40,298 - app_logger - INFO - 
+Epoch 98/100 - train_model
+2025-08-15 12:16:40,298 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:48,465 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:48,595 - app_logger - INFO - Epoch 98 completed - Train Loss: 0.2627, Train_Acc: 0.9271, Train_AUC: 0.9949, F1_train: 0.9041, Val Loss: 0.5384, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:48,598 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:48,598 - app_logger - INFO -  No improvement. Early stopping counter: 9/20 - train_model
+2025-08-15 12:16:48,598 - app_logger - INFO - 
+Epoch 99/100 - train_model
+2025-08-15 12:16:48,598 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:16:56,798 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:16:56,924 - app_logger - INFO - Epoch 99 completed - Train Loss: 0.2621, Train_Acc: 0.9271, Train_AUC: 0.9949, F1_train: 0.9041, Val Loss: 0.5386, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:16:56,926 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:16:56,926 - app_logger - INFO -  No improvement. Early stopping counter: 10/20 - train_model
+2025-08-15 12:16:56,927 - app_logger - INFO - 
+Epoch 100/100 - train_model
+2025-08-15 12:16:56,927 - app_logger - INFO - --------------- - train_model
+2025-08-15 12:17:05,047 - app_logger - INFO - Current Learning Rate: 0.000001 - train_model
+2025-08-15 12:17:05,173 - app_logger - INFO - Epoch 100 completed - Train Loss: 0.2616, Train_Acc: 0.9271, Train_AUC: 0.9949, F1_train: 0.9041, Val Loss: 0.5387, Val_F1: 0.4000, Val_Acc: 0.6667, Val_AUC: 0.5926 - train_model
+2025-08-15 12:17:05,175 - app_logger - INFO - Confusion Matrix:
+[[16, 2], [6, 0]]
+TP: 0, TN: 16, FP: 2, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 0.8889 - train_model
+2025-08-15 12:17:05,175 - app_logger - INFO -  No improvement. Early stopping counter: 11/20 - train_model
+2025-08-15 12:17:05,184 - app_logger - INFO - Best epoch so far: Epoch 9 completed - Train Loss: 0.3497, Train_Acc: 0.8958, Train_AUC: 0.9686, F1_train: 0.8611, Val Loss: 0.5264, Val_F1: 0.4286, Val_Acc: 0.7500, Val_AUC: 0.6296
+Confusion Matrix:
+[[18, 0], [6, 0]]
+TP: 0, TN: 18, FP: 0, FN: 6 | Precision: 0.0000, Recall: 0.0000, Specificity: 1.0000 - train_model
